@@ -1,0 +1,35 @@
+{
+  "environment": {
+    "astrbot_version": "4.28.2",
+    "installation": "isolated editable local plugin installation",
+    "chat_model": "gpt-4.1-mini through the generic OpenAI-compatible source",
+    "marketplace_installation": "not tested; AstrBot Cloud listing pending"
+  },
+  "primary_case": {
+    "model": "MiniMax-H3",
+    "duration_requested": 4,
+    "resolution_requested": "768P",
+    "ratio_requested": "16:9",
+    "generation_tool": "minimax_h3_generate_video",
+    "generation_tool_calls": 1,
+    "lookup_tool": "minimax_h3_get_task",
+    "lookup_tool_calls_in_chat": 1,
+    "task_id": "1aa24f57-fc36-4d40-84e6-18097f864707",
+    "trace_id": "b25eafac-9dde-4cc9-851f-b7b1dce8cd9f",
+    "terminal_status": "succeeded",
+    "video_url": "https://platform2.cdn.acedata.cloud/minimax/1aa24f57-fc36-4d40-84e6-18097f864707.mp4",
+    "media_http_status": 200,
+    "media_content_type": "video/mp4;charset=UTF-8",
+    "video_codec": "h264",
+    "audio_codec": "aac",
+    "video_width": 1344,
+    "video_height": 768,
+    "duration_seconds": 4.458,
+    "task_output_seconds": 4,
+    "usage_api_path": "/minimax/videos",
+    "usage_status_code": 200,
+    "usage_original_credits": 2.40283288,
+    "usage_deducted_credits": 2.162549592
+  },
+  "scope_limit": "Text-to-video and same-task lookup were run through AstrBot chat. First-frame image and other durations, ratios, and resolutions were validated structurally but not generated. Official market installation remains open."
+}
