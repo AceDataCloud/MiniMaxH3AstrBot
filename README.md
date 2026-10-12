@@ -2,7 +2,7 @@
 
 Generate one MiniMax H3 video in an AstrBot conversation through your own Ace Data Cloud account. `minimax_h3_generate_video` submits one text or first-frame video job; `minimax_h3_get_task` queries the same task until its final video is ready.
 
-[简体中文指南](readme/README_zh_Hans.md) · [MiniMax H3 Videos API](https://platform.acedata.cloud/documents/minimax-videos) · [Tasks API](https://platform.acedata.cloud/documents/minimax-tasks) · [Current prices](https://platform.acedata.cloud/services/minimax)
+[简体中文指南](readme/README_zh_Hans.md) · [MiniMax H3 Videos API](https://platform.acedata.cloud/documents/minimax-videos?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=minimaxh3astrbot_readme_documents_minimax_videos) · [Tasks API](https://platform.acedata.cloud/documents/minimax-tasks?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=minimaxh3astrbot_readme_documents_minimax_tasks) · [Current prices](https://platform.acedata.cloud/services/minimax?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=minimaxh3astrbot_readme_services_minimax)
 
 ## Find and install
 
@@ -12,7 +12,9 @@ The official AstrBot Cloud listing is pending. After the source release is merge
 
 ## Configure your key
 
-In [Ace Data Cloud Applications](https://platform.acedata.cloud/console/applications), copy a generation API key from your General application or create a key that permits both `/minimax/videos` and `/minimax/tasks`. Check current per-second pricing, duration, resolution, and balance before submitting. Paste the key into the plugin's **Ace Data Cloud generation API key with MiniMax H3 access** setting. Do not add `Bearer ` or use a `platform-...` management token. AstrBot masks the field in WebUI but stores the original value in its data directory, which should be protected.
+New account? Register and sign in first. If the Applications page has no General application yet, choose **Initialize General Application**, then continue with the key steps below.
+
+In [Ace Data Cloud Applications](https://platform.acedata.cloud/console/applications?utm_source=opensource&utm_medium=referral&utm_campaign=evergreen&utm_content=minimaxh3astrbot_readme_api_key), copy a generation API key from your General application or create a key that permits both `/minimax/videos` and `/minimax/tasks`. Check current per-second pricing, duration, resolution, and balance before submitting. Paste the key into the plugin's **Ace Data Cloud generation API key with MiniMax H3 access** setting. Do not add `Bearer ` or use a `platform-...` management token. AstrBot masks the field in WebUI but stores the original value in its data directory, which should be protected.
 
 Select a chat model that supports tool calling. Allow both MiniMax H3 tools in the conversation's profile and persona.
 
