@@ -2,7 +2,7 @@ name: astrbot_plugin_minimax_h3_acedatacloud
 display_name: MiniMax H3 by Ace Data Cloud
 short_desc: Generate one MiniMax H3 video and retrieve its final result in chat.
 desc: Submit one MiniMax H3 text or first-frame video through your Ace Data Cloud account, then query the same task ID for its final URL.
-version: 0.1.0
+version: 0.1.1
 author: acedatacloud
 repo: https://github.com/AceDataCloud/MiniMaxH3AstrBot
 astrbot_version: ">=4.28.2,<5"
